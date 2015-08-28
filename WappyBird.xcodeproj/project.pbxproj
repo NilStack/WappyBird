@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B823E24F1B8DE88900DA637D /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2401B8DE88900DA637D /* back@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2501B8DE88900DA637D /* bird_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2411B8DE88900DA637D /* bird_1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2511B8DE88900DA637D /* bird_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2421B8DE88900DA637D /* bird_2@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2521B8DE88900DA637D /* bird_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2431B8DE88900DA637D /* bird_3@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2531B8DE88900DA637D /* floor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2441B8DE88900DA637D /* floor@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2541B8DE88900DA637D /* game_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2451B8DE88900DA637D /* game_over@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2551B8DE88900DA637D /* get_ready@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2461B8DE88900DA637D /* get_ready@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2561B8DE88900DA637D /* medal_bronze@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2471B8DE88900DA637D /* medal_bronze@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2571B8DE88900DA637D /* medal_gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2481B8DE88900DA637D /* medal_gold@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2581B8DE88900DA637D /* medal_plate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E2491B8DE88900DA637D /* medal_plate@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E2591B8DE88900DA637D /* medal_platinum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E24A1B8DE88900DA637D /* medal_platinum@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E25A1B8DE88900DA637D /* medal_silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E24B1B8DE88900DA637D /* medal_silver@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E25B1B8DE88900DA637D /* pipe_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E24C1B8DE88900DA637D /* pipe_bottom@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E25C1B8DE88900DA637D /* pipe_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E24D1B8DE88900DA637D /* pipe_top@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B823E25D1B8DE88900DA637D /* taptap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B823E24E1B8DE88900DA637D /* taptap@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B8DFF18C1B8D904D00707959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF18B1B8D904D00707959 /* main.m */; };
+		B8DFF18F1B8D904D00707959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF18E1B8D904D00707959 /* AppDelegate.m */; };
+		B8DFF1921B8D904D00707959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1911B8D904D00707959 /* ViewController.m */; };
+		B8DFF1971B8D904D00707959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF1961B8D904D00707959 /* Assets.xcassets */; };
+		B8DFF19A1B8D904D00707959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF1981B8D904D00707959 /* LaunchScreen.storyboard */; };
+		B8DFF1A71B8D907500707959 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF1A51B8D907500707959 /* Interface.storyboard */; };
+		B8DFF1A91B8D907500707959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF1A81B8D907500707959 /* Assets.xcassets */; };
+		B8DFF1B01B8D907500707959 /* WappyBird@Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8DFF1AF1B8D907500707959 /* WappyBird@Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8DFF1B61B8D907500707959 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1B51B8D907500707959 /* InterfaceController.m */; };
+		B8DFF1B91B8D907500707959 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1B81B8D907500707959 /* ExtensionDelegate.m */; };
+		B8DFF1BB1B8D907500707959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF1BA1B8D907500707959 /* Assets.xcassets */; };
+		B8DFF1BF1B8D907500707959 /* WappyBird@Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B8DFF1A31B8D907400707959 /* WappyBird@Watch.app */; };
+		B8DFF1CD1B8D93CE00707959 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1CC1B8D93CE00707959 /* Score.m */; settings = {ASSET_TAGS = (); }; };
+		B8DFF1D51B8D945300707959 /* BirdNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1D01B8D945300707959 /* BirdNode.m */; settings = {ASSET_TAGS = (); }; };
+		B8DFF1D61B8D945300707959 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1D21B8D945300707959 /* Scene.m */; settings = {ASSET_TAGS = (); }; };
+		B8DFF1D71B8D945300707959 /* SKScrollingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1D41B8D945300707959 /* SKScrollingNode.m */; settings = {ASSET_TAGS = (); }; };
+		B8DFF1DB1B8D946500707959 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF1DA1B8D946500707959 /* Math.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8DFF1B11B8D907500707959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8DFF17F1B8D904D00707959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DFF1AE1B8D907500707959;
+			remoteInfo = "WappyBird@Watch Extension";
+		};
+		B8DFF1BD1B8D907500707959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8DFF17F1B8D904D00707959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DFF1A21B8D907400707959;
+			remoteInfo = "WappyBird@Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8DFF1C31B8D907500707959 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8DFF1B01B8D907500707959 /* WappyBird@Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DFF1C71B8D907500707959 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B8DFF1BF1B8D907500707959 /* WappyBird@Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B823E2401B8DE88900DA637D /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		B823E2411B8DE88900DA637D /* bird_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_1@2x.png"; sourceTree = "<group>"; };
+		B823E2421B8DE88900DA637D /* bird_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_2@2x.png"; sourceTree = "<group>"; };
+		B823E2431B8DE88900DA637D /* bird_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_3@2x.png"; sourceTree = "<group>"; };
+		B823E2441B8DE88900DA637D /* floor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor@2x.png"; sourceTree = "<group>"; };
+		B823E2451B8DE88900DA637D /* game_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_over@2x.png"; sourceTree = "<group>"; };
+		B823E2461B8DE88900DA637D /* get_ready@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get_ready@2x.png"; sourceTree = "<group>"; };
+		B823E2471B8DE88900DA637D /* medal_bronze@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_bronze@2x.png"; sourceTree = "<group>"; };
+		B823E2481B8DE88900DA637D /* medal_gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_gold@2x.png"; sourceTree = "<group>"; };
+		B823E2491B8DE88900DA637D /* medal_plate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_plate@2x.png"; sourceTree = "<group>"; };
+		B823E24A1B8DE88900DA637D /* medal_platinum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_platinum@2x.png"; sourceTree = "<group>"; };
+		B823E24B1B8DE88900DA637D /* medal_silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_silver@2x.png"; sourceTree = "<group>"; };
+		B823E24C1B8DE88900DA637D /* pipe_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_bottom@2x.png"; sourceTree = "<group>"; };
+		B823E24D1B8DE88900DA637D /* pipe_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_top@2x.png"; sourceTree = "<group>"; };
+		B823E24E1B8DE88900DA637D /* taptap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taptap@2x.png"; sourceTree = "<group>"; };
+		B8DFF1871B8D904D00707959 /* WappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DFF18B1B8D904D00707959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8DFF18D1B8D904D00707959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8DFF18E1B8D904D00707959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8DFF1901B8D904D00707959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8DFF1911B8D904D00707959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8DFF1961B8D904D00707959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DFF1991B8D904D00707959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8DFF19B1B8D904D00707959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DFF1A31B8D907400707959 /* WappyBird@Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WappyBird@Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DFF1A61B8D907500707959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B8DFF1A81B8D907500707959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DFF1AA1B8D907500707959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DFF1AF1B8D907500707959 /* WappyBird@Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WappyBird@Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DFF1B41B8D907500707959 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B8DFF1B51B8D907500707959 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B8DFF1B71B8D907500707959 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B8DFF1B81B8D907500707959 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B8DFF1BA1B8D907500707959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DFF1BC1B8D907500707959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DFF1C81B8D92A100707959 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		B8DFF1C91B8D92DE00707959 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B8DFF1CB1B8D93CE00707959 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		B8DFF1CC1B8D93CE00707959 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		B8DFF1CF1B8D945300707959 /* BirdNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdNode.h; sourceTree = "<group>"; };
+		B8DFF1D01B8D945300707959 /* BirdNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdNode.m; sourceTree = "<group>"; };
+		B8DFF1D11B8D945300707959 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		B8DFF1D21B8D945300707959 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		B8DFF1D31B8D945300707959 /* SKScrollingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKScrollingNode.h; sourceTree = "<group>"; };
+		B8DFF1D41B8D945300707959 /* SKScrollingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKScrollingNode.m; sourceTree = "<group>"; };
+		B8DFF1D91B8D946500707959 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		B8DFF1DA1B8D946500707959 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DFF1841B8D904D00707959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DFF1AC1B8D907500707959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B823E23F1B8DE88900DA637D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B823E2401B8DE88900DA637D /* back@2x.png */,
+				B823E2411B8DE88900DA637D /* bird_1@2x.png */,
+				B823E2421B8DE88900DA637D /* bird_2@2x.png */,
+				B823E2431B8DE88900DA637D /* bird_3@2x.png */,
+				B823E2441B8DE88900DA637D /* floor@2x.png */,
+				B823E2451B8DE88900DA637D /* game_over@2x.png */,
+				B823E2461B8DE88900DA637D /* get_ready@2x.png */,
+				B823E2471B8DE88900DA637D /* medal_bronze@2x.png */,
+				B823E2481B8DE88900DA637D /* medal_gold@2x.png */,
+				B823E2491B8DE88900DA637D /* medal_plate@2x.png */,
+				B823E24A1B8DE88900DA637D /* medal_platinum@2x.png */,
+				B823E24B1B8DE88900DA637D /* medal_silver@2x.png */,
+				B823E24C1B8DE88900DA637D /* pipe_bottom@2x.png */,
+				B823E24D1B8DE88900DA637D /* pipe_top@2x.png */,
+				B823E24E1B8DE88900DA637D /* taptap@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B8DFF17E1B8D904D00707959 = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1891B8D904D00707959 /* WappyBird */,
+				B8DFF1A41B8D907500707959 /* WappyBird@Watch */,
+				B8DFF1B31B8D907500707959 /* WappyBird@Watch Extension */,
+				B8DFF1881B8D904D00707959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DFF1881B8D904D00707959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1871B8D904D00707959 /* WappyBird.app */,
+				B8DFF1A31B8D907400707959 /* WappyBird@Watch.app */,
+				B8DFF1AF1B8D907500707959 /* WappyBird@Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DFF1891B8D904D00707959 /* WappyBird */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF18D1B8D904D00707959 /* AppDelegate.h */,
+				B8DFF18E1B8D904D00707959 /* AppDelegate.m */,
+				B8DFF1C81B8D92A100707959 /* Macros.h */,
+				B8DFF1C91B8D92DE00707959 /* Constants.h */,
+				B8DFF1901B8D904D00707959 /* ViewController.h */,
+				B8DFF1911B8D904D00707959 /* ViewController.m */,
+				B8DFF1CE1B8D945300707959 /* Scenes */,
+				B8DFF1CA1B8D93CE00707959 /* Models */,
+				B8DFF1D81B8D946500707959 /* Helpers */,
+				B823E23F1B8DE88900DA637D /* images */,
+				B8DFF1961B8D904D00707959 /* Assets.xcassets */,
+				B8DFF1981B8D904D00707959 /* LaunchScreen.storyboard */,
+				B8DFF19B1B8D904D00707959 /* Info.plist */,
+				B8DFF18A1B8D904D00707959 /* Supporting Files */,
+			);
+			path = WappyBird;
+			sourceTree = "<group>";
+		};
+		B8DFF18A1B8D904D00707959 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF18B1B8D904D00707959 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8DFF1A41B8D907500707959 /* WappyBird@Watch */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1A51B8D907500707959 /* Interface.storyboard */,
+				B8DFF1A81B8D907500707959 /* Assets.xcassets */,
+				B8DFF1AA1B8D907500707959 /* Info.plist */,
+			);
+			path = "WappyBird@Watch";
+			sourceTree = "<group>";
+		};
+		B8DFF1B31B8D907500707959 /* WappyBird@Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1B41B8D907500707959 /* InterfaceController.h */,
+				B8DFF1B51B8D907500707959 /* InterfaceController.m */,
+				B8DFF1B71B8D907500707959 /* ExtensionDelegate.h */,
+				B8DFF1B81B8D907500707959 /* ExtensionDelegate.m */,
+				B8DFF1BA1B8D907500707959 /* Assets.xcassets */,
+				B8DFF1BC1B8D907500707959 /* Info.plist */,
+			);
+			path = "WappyBird@Watch Extension";
+			sourceTree = "<group>";
+		};
+		B8DFF1CA1B8D93CE00707959 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1CB1B8D93CE00707959 /* Score.h */,
+				B8DFF1CC1B8D93CE00707959 /* Score.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8DFF1CE1B8D945300707959 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1CF1B8D945300707959 /* BirdNode.h */,
+				B8DFF1D01B8D945300707959 /* BirdNode.m */,
+				B8DFF1D11B8D945300707959 /* Scene.h */,
+				B8DFF1D21B8D945300707959 /* Scene.m */,
+				B8DFF1D31B8D945300707959 /* SKScrollingNode.h */,
+				B8DFF1D41B8D945300707959 /* SKScrollingNode.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B8DFF1D81B8D946500707959 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF1D91B8D946500707959 /* Math.h */,
+				B8DFF1DA1B8D946500707959 /* Math.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DFF1861B8D904D00707959 /* WappyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DFF19E1B8D904D00707959 /* Build configuration list for PBXNativeTarget "WappyBird" */;
+			buildPhases = (
+				B8DFF1831B8D904D00707959 /* Sources */,
+				B8DFF1841B8D904D00707959 /* Frameworks */,
+				B8DFF1851B8D904D00707959 /* Resources */,
+				B8DFF1C71B8D907500707959 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8DFF1BE1B8D907500707959 /* PBXTargetDependency */,
+			);
+			name = WappyBird;
+			productName = WappyBird;
+			productReference = B8DFF1871B8D904D00707959 /* WappyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8DFF1A21B8D907400707959 /* WappyBird@Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DFF1C41B8D907500707959 /* Build configuration list for PBXNativeTarget "WappyBird@Watch" */;
+			buildPhases = (
+				B8DFF1A11B8D907400707959 /* Resources */,
+				B8DFF1C31B8D907500707959 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8DFF1B21B8D907500707959 /* PBXTargetDependency */,
+			);
+			name = "WappyBird@Watch";
+			productName = "WappyBird@Watch";
+			productReference = B8DFF1A31B8D907400707959 /* WappyBird@Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B8DFF1AE1B8D907500707959 /* WappyBird@Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DFF1C01B8D907500707959 /* Build configuration list for PBXNativeTarget "WappyBird@Watch Extension" */;
+			buildPhases = (
+				B8DFF1AB1B8D907500707959 /* Sources */,
+				B8DFF1AC1B8D907500707959 /* Frameworks */,
+				B8DFF1AD1B8D907500707959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WappyBird@Watch Extension";
+			productName = "WappyBird@Watch Extension";
+			productReference = B8DFF1AF1B8D907500707959 /* WappyBird@Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DFF17F1B8D904D00707959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Peng;
+				TargetAttributes = {
+					B8DFF1861B8D904D00707959 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B8DFF1A21B8D907400707959 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B8DFF1AE1B8D907500707959 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B8DFF1821B8D904D00707959 /* Build configuration list for PBXProject "WappyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DFF17E1B8D904D00707959;
+			productRefGroup = B8DFF1881B8D904D00707959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DFF1861B8D904D00707959 /* WappyBird */,
+				B8DFF1A21B8D907400707959 /* WappyBird@Watch */,
+				B8DFF1AE1B8D907500707959 /* WappyBird@Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DFF1851B8D904D00707959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B823E2511B8DE88900DA637D /* bird_2@2x.png in Resources */,
+				B823E25B1B8DE88900DA637D /* pipe_bottom@2x.png in Resources */,
+				B823E2561B8DE88900DA637D /* medal_bronze@2x.png in Resources */,
+				B823E2541B8DE88900DA637D /* game_over@2x.png in Resources */,
+				B8DFF19A1B8D904D00707959 /* LaunchScreen.storyboard in Resources */,
+				B823E2591B8DE88900DA637D /* medal_platinum@2x.png in Resources */,
+				B823E25D1B8DE88900DA637D /* taptap@2x.png in Resources */,
+				B823E2501B8DE88900DA637D /* bird_1@2x.png in Resources */,
+				B823E2531B8DE88900DA637D /* floor@2x.png in Resources */,
+				B823E2581B8DE88900DA637D /* medal_plate@2x.png in Resources */,
+				B823E25C1B8DE88900DA637D /* pipe_top@2x.png in Resources */,
+				B823E2521B8DE88900DA637D /* bird_3@2x.png in Resources */,
+				B823E24F1B8DE88900DA637D /* back@2x.png in Resources */,
+				B8DFF1971B8D904D00707959 /* Assets.xcassets in Resources */,
+				B823E2571B8DE88900DA637D /* medal_gold@2x.png in Resources */,
+				B823E2551B8DE88900DA637D /* get_ready@2x.png in Resources */,
+				B823E25A1B8DE88900DA637D /* medal_silver@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DFF1A11B8D907400707959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF1A91B8D907500707959 /* Assets.xcassets in Resources */,
+				B8DFF1A71B8D907500707959 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DFF1AD1B8D907500707959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF1BB1B8D907500707959 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DFF1831B8D904D00707959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF1D71B8D945300707959 /* SKScrollingNode.m in Sources */,
+				B8DFF1D61B8D945300707959 /* Scene.m in Sources */,
+				B8DFF1921B8D904D00707959 /* ViewController.m in Sources */,
+				B8DFF1DB1B8D946500707959 /* Math.m in Sources */,
+				B8DFF1D51B8D945300707959 /* BirdNode.m in Sources */,
+				B8DFF18F1B8D904D00707959 /* AppDelegate.m in Sources */,
+				B8DFF1CD1B8D93CE00707959 /* Score.m in Sources */,
+				B8DFF18C1B8D904D00707959 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DFF1AB1B8D907500707959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF1B91B8D907500707959 /* ExtensionDelegate.m in Sources */,
+				B8DFF1B61B8D907500707959 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8DFF1B21B8D907500707959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8DFF1AE1B8D907500707959 /* WappyBird@Watch Extension */;
+			targetProxy = B8DFF1B11B8D907500707959 /* PBXContainerItemProxy */;
+		};
+		B8DFF1BE1B8D907500707959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8DFF1A21B8D907400707959 /* WappyBird@Watch */;
+			targetProxy = B8DFF1BD1B8D907500707959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8DFF1981B8D904D00707959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DFF1991B8D904D00707959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8DFF1A51B8D907500707959 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DFF1A61B8D907500707959 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8DFF19C1B8D904D00707959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8DFF19D1B8D904D00707959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DFF19F1B8D904D00707959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8DFF1A01B8D904D00707959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8DFF1C11B8D907500707959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WappyBird@Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B8DFF1C21B8D907500707959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WappyBird@Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B8DFF1C51B8D907500707959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WappyBird_Watch_Extension;
+				INFOPLIST_FILE = "WappyBird@Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B8DFF1C61B8D907500707959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WappyBird_Watch_Extension;
+				INFOPLIST_FILE = "WappyBird@Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.WappyBird.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DFF1821B8D904D00707959 /* Build configuration list for PBXProject "WappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF19C1B8D904D00707959 /* Debug */,
+				B8DFF19D1B8D904D00707959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DFF19E1B8D904D00707959 /* Build configuration list for PBXNativeTarget "WappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF19F1B8D904D00707959 /* Debug */,
+				B8DFF1A01B8D904D00707959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DFF1C01B8D907500707959 /* Build configuration list for PBXNativeTarget "WappyBird@Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF1C11B8D907500707959 /* Debug */,
+				B8DFF1C21B8D907500707959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DFF1C41B8D907500707959 /* Build configuration list for PBXNativeTarget "WappyBird@Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF1C51B8D907500707959 /* Debug */,
+				B8DFF1C61B8D907500707959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8DFF17F1B8D904D00707959 /* Project object */;
+}
