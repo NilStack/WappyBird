@@ -6,7 +6,7 @@
 
 Fly your Flappy Bird with Apple Watch! This is an attempt to make Apple Watch a game controller although it's very simple. 
 
-![gif](https://db.tt/EEmRkUWZ)
+![gif](https://db.tt/ePQVPKUY)
 
 ##Why##
 1. To show how to use sendMessage in WatchConnectivity framework.
